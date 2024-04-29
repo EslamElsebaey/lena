@@ -154,7 +154,7 @@ button:focus {
 .progress-bar {
   animation: progress 6s ease infinite;
   padding: 1px;
-  background-color: #2b2f86;
+  background-color: #7dc26f;
 }
 
 @keyframes progress {
