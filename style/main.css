@@ -472,7 +472,7 @@ ol.breadcrumb li span {
 
 @media screen and (max-width: 1920px) {
   .features .mobile-hand-img {
-    inset-inline-start: -8%;
+    inset-inline-start: 10px;
   }
 }
 @media screen and (max-width: 1700px) {
@@ -482,8 +482,9 @@ ol.breadcrumb li span {
 }
 @media screen and (max-width: 1600px) {
   .features .mobile-hand-img {
-    inset-inline-start: -7%;
+    inset-inline-start: 20px;
     top: 25px;
+    width: 700px;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -1291,14 +1292,14 @@ header {
 @media screen and (max-width: 1920px) {
   .hero-mobile {
     width: 600px;
-    bottom: -10px;
+    bottom: 30px;
     inset-inline-end: -13%;
   }
 }
 @media screen and (max-width: 1600px) {
   .hero-mobile {
-    width: 500px;
-    bottom: -45px;
+    width: 450px;
+    bottom: 30px;
     inset-inline-end: 0;
   }
 }
@@ -1351,14 +1352,14 @@ header {
   .hero-mobile {
     width: 445px;
     inset-inline-end: 0;
-    bottom: 25px;
+    bottom: 90px;
   }
 }
 @media only screen and (max-width: 991px) {
   .hero-mobile {
     width: 356px;
     inset-inline-end: -54px;
-    bottom: 36px;
+    bottom: 140px;
   }
   .banner-desc .main-title {
     font-size: 30px;

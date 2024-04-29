@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 1920px) {
   .features .mobile-hand-img {
-    inset-inline-start: -8%;
+    inset-inline-start: 10px;
   }
 }
 
@@ -96,8 +96,9 @@
 }
 @media screen and (max-width: 1600px) {
   .features .mobile-hand-img {
-    inset-inline-start: -7%;
+    inset-inline-start: 20px;
     top: 25px;
+    width: 700px;
   }
 }
 

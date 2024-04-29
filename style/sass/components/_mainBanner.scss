@@ -65,17 +65,18 @@
 
   @media screen and (max-width : 1920px) {
     .hero-mobile{
-      width: 600px;
-      bottom: -10px;
-      inset-inline-end: -13%;
+     width: 600px;
+    bottom: 30px;
+    inset-inline-end: -13%;
+    // transform: translateY(-50%) !important;
     }
   }
 
   
   @media screen and (max-width : 1600px) {
     .hero-mobile{
-      width: 500px;
-      bottom: -45px;
+      width: 450px;
+      bottom: 30px;
       inset-inline-end: 0;
     }
   }
@@ -140,7 +141,7 @@
   .hero-mobile{
     width: 445px;
     inset-inline-end: 0;
-    bottom: 25px;
+    bottom: 90px;
   }
 }
 
@@ -148,7 +149,7 @@
   .hero-mobile{
     width: 356px;
     inset-inline-end: -54px;
-    bottom: 36px;
+    bottom: 140px;
   }
   .banner-desc .main-title{
     font-size: 30px;
