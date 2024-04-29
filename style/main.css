@@ -1292,14 +1292,15 @@ header {
 @media screen and (max-width: 1920px) {
   .hero-mobile {
     width: 600px;
-    bottom: 30px;
     inset-inline-end: -13%;
+    top: 50%;
+    margin-top: -338px;
   }
 }
 @media screen and (max-width: 1600px) {
   .hero-mobile {
     width: 450px;
-    bottom: 30px;
+    margin-top: -253px;
     inset-inline-end: 0;
   }
 }
@@ -1359,7 +1360,7 @@ header {
   .hero-mobile {
     width: 356px;
     inset-inline-end: -54px;
-    bottom: 140px;
+    margin-top: -200px;
   }
   .banner-desc .main-title {
     font-size: 30px;
@@ -1389,6 +1390,7 @@ header {
     left: 50%;
     margin-left: -140px;
     width: 280px;
+    margin-top: unset;
   }
   .scroll-btn span {
     border-color: #1a1a1a;
