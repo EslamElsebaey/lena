@@ -1,0 +1,84 @@
+html[dir="ltr"] {
+  .ques-answer {
+    line-height: 1.7;
+  }
+  .about .para {
+    line-height: 1.4;
+  }
+  .mainBanner-parent .banner-desc {
+    direction: ltr;
+    inset-inline-end: 12px;
+  }
+  .list-item .item-title,
+  .client-reviews .general-title,
+  .banner-desc .second-title {
+    line-height: 1.3;
+  }
+  .banner-desc .second-title {
+    margin-top: 10px;
+  }
+
+  .banner-desc .main-title {
+    line-height: 1.1;
+  }
+  .features .general-title {
+    line-height: 1.2;
+  }
+  .ques-text {
+    line-height: 1.35;
+  }
+  .features-cont {
+    direction: ltr;
+  }
+  .client-reviews .item .quote-text,
+  .about .item .desc {
+    line-height: 1.5;
+  }
+  .download-parent {
+    width: 890px;
+  }
+  @include max-1200 {
+    .download-parent {
+      width: 100%;
+    }
+  }
+  @include max-768 {
+    .banner-desc .second-title {
+      margin-top: 0;
+    }
+    .about .para {
+      line-height: 1.5;
+    }
+    .about .item .title {
+      line-height: 1.4;
+    }
+    .features-cont {
+      width: 100%;
+    }
+    .ques-answer {
+      line-height: 1.6;
+    }
+    .client-reviews .general-title,
+    .faq .general-title {
+      line-height: 1.3;
+    }
+    .footer-content .copyright {
+      line-height: 1.4;
+    }
+    .download-parent .content .para {
+      line-height: 1.2;
+    }
+    .form-div .text {
+      line-height: 1.35;
+    }
+  }
+  .client-reviews .item .icon {
+    transform: scaleX(-1);
+  }
+
+  @media screen and (max-width: 410px) {
+    .banner-desc .main-title {
+      font-size: 25px;
+    }
+  }
+}

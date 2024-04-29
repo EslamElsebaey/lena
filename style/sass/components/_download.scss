@@ -1,0 +1,129 @@
+.download-app {
+  margin-top: 30px;
+  overflow: hidden;
+  background-color: #fff;
+  padding-top: 50px;
+}
+.download-bg {
+  background-color: $blue-color;
+  height: 326px;
+  .container {
+    height: 100%;
+  }
+}
+.download-parent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 835px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  .cta-mob {
+    position: absolute;
+    bottom: 0;
+    inset-inline-start: 0;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline-start: auto;
+    .head {
+      font-size: 36px;
+      line-height: 50px;
+      color: #ffffff;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    .para {
+      font-size: 24px;
+      color: #ffffff;
+      margin: 0;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+}
+.download-links {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 35px;
+  a {
+    width: 185px;
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #1a1a1a;
+    img {
+      width: 129px;
+    }
+  }
+}
+
+.download-app .download-links a:hover {
+  background-color: $green-color;
+}
+
+@include max-1200 {
+  .download-parent {
+    width: 100%;
+  }
+}
+
+@include max-992 {
+  .download-parent .cta-mob {
+    max-width: 280px;
+  }
+  .download-bg {
+    height: 280px;
+  }
+  .download-parent .content .para {
+    font-size: 22px;
+  }
+  .download-parent .content .head {
+    font-size: 32px;
+    width: 100%;
+  }
+}
+
+@include max-768 {
+  .download-app {
+    margin-top: 0;
+    padding-top: 40px;
+  }
+  .download-parent {
+    flex-direction: column;
+    row-gap: 35px;
+  }
+  .download-bg {
+    height: auto;
+    padding-top: 50px;
+  }
+  .download-parent .content {
+    order: 1;
+    margin-inline-start: unset;
+    width: 100%;
+  }
+  .download-parent .cta-mob {
+    order: 2;
+    position: unset;
+    max-width: 250px;
+  }
+  .download-links a img {
+    height: 25px;
+    width: 129px;
+  }
+  .download-app .download-links a {
+    height: auto;
+    width: auto;
+    padding: 14px 28px;
+  }
+}
